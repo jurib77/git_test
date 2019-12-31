@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> Simple File Upload </TITLE>
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+ </HEAD>
+
+ <BODY>
+ 	<h1>하나의 파일 업로드 예제1</h1>
+  <form method="post"  enctype="multipart/form-data" action="fileUpload.do">
+	<table border="1">
+		<tr>
+			<td>작성자</td>
+			<td><input type="text" name="user"></td>
+		</tr>
+		<tr>
+			<td>내용</td>
+			<td><input type="text" name="content"></td>
+		</tr>		
+		<tr>
+			<td>파일</td>
+			<td><input type="file" name="uploadFile"></td>
+		</tr>
+
+		<tr>
+			<td colspan="2"  align="center"><input type="submit" name="파일업로드"><input type="reset" name="취소"></td>
+		</tr>
+ 	</table>
+  </form>
+ </BODY>
+</HTML>
